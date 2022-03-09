@@ -10,24 +10,22 @@ public class S1n1e1 {
 
 	public static void main(String[] args) {
 		Vehicle v = new Vehicle();
-		
 		Vehicle.iniciar();
-		
 	}
 }	
- 		class Vehicle {
-		//static int id =0;
+ 	class Vehicle {
+	//static int id =0;
 		
-		Vehicle(){
-			//id++;
-			System.out.print("constructor");
-		}
-		
-		public static void iniciar() {
-			System.out.print("metodeIniciar");
-		}
-		
-		
+	Vehicle(){
+		//id++;
+		System.out.print("constructor");
 	}
+		
+	public static void iniciar() {
+		System.out.print("metodeIniciar");
+	}
+		
+		
+}
 
 
